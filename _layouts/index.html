@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{{ content }}
+
+<h2>Lessons</h2>
+
+<ul>
+  {% for lesson in site.lessons %}
+  <li><a href="{{ lesson.url | relative_url }}">
+    {{ lesson.path | slice: 9, 3 }} {{ lesson.title }}</a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,28 @@
+title: Python Pyglet Course
+description: Learn Python from scratch by making a game with Pyglet
+email: sean@seanpackham.com
+
+url: https://seanpackham.com/python-pyglet-course
+permalink: pretty
+
+collections:
+  lessons:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: lessons
+    values:
+      layout: lesson
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

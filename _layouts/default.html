@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
+  <link rel="shortcut icon" href="/favicon.ico?v=1"/>
+  {% capture scss %}{% include styles.scss %}{% endcapture %}
+  <style>{{ scss | scssify }}</style>
+</head>
+<body class="{{ page.layout }}">
+
+<header>
+  <h2><a href="/">{{ site.title }}</a></h2>
+  <a href="https://twitter.com/SeanPackham" target="_blank">Twitter</a>
+</header>
+
+{{ content }}
+
+<footer>
+</footer>
+
+</body>
+</html>
