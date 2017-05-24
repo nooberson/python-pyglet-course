@@ -20,8 +20,6 @@ defaults:
 sass:
   style: compressed
 
-gems:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
