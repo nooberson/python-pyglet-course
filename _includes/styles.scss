@@ -6,7 +6,7 @@ $page-width: 700px;
 
 // anchors and inline code blocks
 $color-anchor: #20597e;
-$color-background: #FFF8E3;
+$color-background: #fdf6e3;
 
 
 // styles
@@ -48,3 +48,7 @@ blockquote {
 }
 
 img { max-width: $page-width; }
+
+header, footer {
+  margin: 35px 0;
+}
