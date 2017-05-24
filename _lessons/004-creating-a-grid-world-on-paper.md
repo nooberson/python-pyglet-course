@@ -31,7 +31,7 @@ Lastly draw something you would like to use to represent your character in an em
 
 Here's my simple grid, its quite small so I could get cretive with mazes or rooms. If you want to make another grid go ahead and do so, keep this one though as your game can have multiple rooms in it.
 
-![Draw a grid with walls and a player](/images/004-draw-grid.png)
+![Draw a grid with walls and a player](../images/004-draw-grid.png)
 
 #### Instructor notes:
 
