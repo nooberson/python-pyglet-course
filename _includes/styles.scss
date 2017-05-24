@@ -6,7 +6,7 @@ $page-width: 700px;
 
 // anchors and inline code blocks
 $color-anchor: #20597e;
-$color-background: #ffffff;
+$color-background: #FFF8E3;
 
 
 // styles
@@ -15,8 +15,8 @@ body {
   max-width: $page-width;
   background: $color-background;
   color: #1D2326;
-  font-family: Verdana, sans-serif;
-  font-size: 17px;
+  font-family: Georgia, serif;
+  font-size: 20px;
   line-height: 1.58;
   margin: 0 auto 50px;
   padding: 0 20px;
@@ -37,8 +37,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #33332D;
   }
 }
-
-.index h3 { margin-top: 0; }
 
 blockquote {
   font-style: italic;
