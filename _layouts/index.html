@@ -5,9 +5,10 @@ layout: default
 
 <h2>Lessons</h2>
 
-<ul>
+<ol>
   {% for lesson in site.lessons %}
-  <li><a href="{{ lesson.url | relative_url }}">
-    {{ lesson.path | slice: 9, 3 }} {{ lesson.title }}</a></li>
+  <li>
+    <a href="{{ lesson.url | replace:'index','' | relative_url }}">{{ lesson.title }}</a>
+  </li>
   {% endfor %}
-</ul>
+</ol>

@@ -5,10 +5,13 @@ email: sean@seanpackham.com
 url: https://seanpackham.com/python-pyglet-course
 permalink: pretty
 
+# bump if alterting styles
+version: 1
+
 collections:
   lessons:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:path
 
 defaults:
   - scope:
