@@ -3,7 +3,7 @@
 
 // variables
 
-$width-page: 750px;
+$width-page: 720px;
 
 $background-body: #fdf6e3;
 $background-code: #eee8d5;
@@ -11,8 +11,10 @@ $background-code: #eee8d5;
 $color-text: #333333;
 $color-heading: #6c6c6c;
 $color-anchor: #20597e;
+$color-code: #555555;
 
-$font-family: Georgia, serif;
+$font-body: 19px Georgia, serif;
+$font-code: 18px Consolas, Courier New, monospace;
 
 
 // styles
@@ -21,14 +23,13 @@ body {
   max-width: $width-page;
   background: $background-body;
   color: $color-text;
-  font-family: $font-family;
-  font-size: 20px;
+  font: $font-body;
   line-height: 1.58;
   margin: 0 auto 50px;
   padding: 0 20px;
 
   @media(max-width: $width-page) {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
@@ -48,19 +49,39 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-blockquote, pre {
-  background: $background-code;
+blockquote {
   font-style: italic;
   margin: 1.5em 0;
   padding: 0 1em;
-  font-size: 26px;
+  font-size: 24px;
 
   @media(max-width: $width-page) {
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
-img { max-width: $width-page; }
+code, pre {
+  background: $background-code;
+  color: $color-code;
+  font: $font-code;
+}
+
+pre {
+  margin: 20px 0;
+  padding: 10px 15px;
+}
+
+div.path {
+  background: $background-code;
+  font-size: smaller;
+  padding: 10px 15px 8px;
+  margin: 25px 0 -20px;
+  border-bottom: 3px solid #2aa198;
+}
+
+img {
+  max-width: $width-page;
+}
 
 header, footer {
   margin: 40px 0;
