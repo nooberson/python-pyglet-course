@@ -6,7 +6,11 @@ url: https://seanpackham.com/python-pyglet-course
 permalink: pretty
 
 # bump if alterting styles
-version: 2
+version: 3
+
+# how many words per minute can the average person in your audience read
+# lower wpm for technical content and younger audience
+wpm: 40
 
 collections:
   lessons:

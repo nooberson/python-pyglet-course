@@ -1,6 +1,6 @@
 ---
-title:  Setup Python and Pyglet
-date:   2017-05-24 10:00:00 +0000
+title: Setup Python and Pyglet
+date: 2017-05-24 10:00:00 +0000
 ---
 
 The course uses the latest version of <a href="https://www.python.org/downloads/" target="_blank">Python (3.6.x)</a> and <a href="https://bitbucket.org/pyglet/pyglet/wiki/Download" target="_blank">Pyglet (1.2.x)</a>.

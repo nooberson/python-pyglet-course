@@ -1,6 +1,6 @@
 ---
-title:  Introduction
-date:   2017-05-24 10:00:00 +0000
+title: Introduction
+date: 2017-05-24 10:00:00 +0000
 ---
 
 This course will teach you how to code with <a href="https://www.python.org" target="_blank">Python</a> by making a game with <a href="http://pyglet.readthedocs.io" target="_blank">Pyglet</a>.

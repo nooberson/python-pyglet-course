@@ -6,7 +6,7 @@ layout: default
 
 <small>
   {% assign words = content | number_of_words %}
-  {% if words < 360 %} 1 min {% else %} {{ words | divided_by:100 }} mins {% endif %} read
+  {% if words < site.wpm %} 1 min {% else %} {{ words | divided_by: site.wpm }} mins {% endif %} read
 </small>
 
 {{ content }}

@@ -1,6 +1,6 @@
 ---
-title:  Share your gaming experiences
-date:   2017-05-24 10:00:00 +0000
+title: Share your gaming experiences
+date: 2017-05-24 10:00:00 +0000
 ---
 
 Games are fun! Let's begin with everyone sharing their gaming experiences - whether it is a fun gaming session with friends or family, something funnt that happened or just your all time favourite game, share it with others in the class, who knows you might learn about another great game you might like.

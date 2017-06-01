@@ -1,6 +1,6 @@
 ---
-title:  Create a grid world on paper
-date:   2017-05-24 10:00:00 +0000
+title: Create a game world on paper
+date: 2017-05-24 10:00:00 +0000
 ---
 
 ## Draw a grid
