@@ -1,6 +1,7 @@
 ---
 title: Your first Python program
 date: 2017-06-01 08:00:00 +0000
+source: https://github.com/SeanPackham/python-pyglet-course/tree/master/_lessons/6/first-python-program
 ---
 
 You've planned and draw your world on paper, created a file format to represent tiles digitally, now in this lesson you are going to write your first Python program that will output some content and display the game's main window.
@@ -10,7 +11,7 @@ You've planned and draw your world on paper, created a file format to represent 
 Create a new file Python file called `1.py` and paste the following code into it, save it and run it by pressing `F5`.
 
 <div class="path">
-  <a href="https://github.com/seanpackham/python-pyglet-course/_lessons/6/first-ppython-program/1.py">lessons/6/first-ppython-program/1.py</a>
+  <a href="https://github.com/SeanPackham/python-pyglet-course/blob/master/_lessons/6/first-python-program/1.py" target="_blank">lessons/6/first-ppython-program/1.py</a>
 </div>
 ```python
 # lines beginning with a "#" are comments
@@ -47,8 +48,7 @@ print(game_version)
 # there are no more lines to run so the program will end
 ```
 
-
-Our game isn't doing anything exciting at this point, all it does is output three lines.
+Our program isn't doing anything exciting at this point, all it does is output three lines.
 
 ![1.py program output](images/1-py-output.png)
 
@@ -57,7 +57,7 @@ Our game isn't doing anything exciting at this point, all it does is output thre
 Let's make it open a blank window we will use to draw our game world. I only included the changed lines below but the linked file has the entire updated program.
 
 <div class="path">
-  <a href="https://github.com/seanpackham/python-pyglet-course/_lessons/6/first-ppython-program/2.py">lessons/6/first-ppython-program/2.py</a>
+  <a href="https://github.com/SeanPackham/python-pyglet-course/blob/master/_lessons/6/first-python-program/2.py" target="_blank">lessons/6/first-ppython-program/2.py</a>
 </div>
 ```python
 # since we are making a change to our game
