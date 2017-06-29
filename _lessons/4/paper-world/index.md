@@ -35,6 +35,6 @@ Here's my simple grid, its quite small so I couldn't get creative with mazes or 
 
 #### Instructor notes:
 
-- Try and stress that students don't need to make their drawings perfect.
+- Remind students they don't need to make their drawings perfect.
 - I'd recommned not using rulers or erasers for this task.
 - If you make a mistake in a cell, just shade it in to make it a wall.
