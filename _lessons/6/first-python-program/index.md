@@ -106,5 +106,3 @@ print(game_Version)
 Which makes Python throw the following error:
 
 ![Variable name error](images/error-variable-name.png)
-
-todo: rest of debugging...
